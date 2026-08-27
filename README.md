@@ -8,6 +8,7 @@ After GitHub Pages is enabled (Settings → Pages → Source: **GitHub Actions**
 
 - **Hub:** https://moktarul12.github.io/privacy/
 - **Kiddo:** https://moktarul12.github.io/privacy/kiddo/
+- **Bengali Calendar:** https://moktarul12.github.io/privacy/bengalicalendar/
 
 Use the Kiddo URL in Play Console → Store listing → Privacy policy URL.
 
@@ -21,7 +22,8 @@ Use the Kiddo URL in Play Console → Store listing → Privacy policy URL.
 
 ```
 privacy/
-├── index.html          # lists all apps
-├── kiddo/index.html    # Kiddo policy
+├── index.html                  # lists all apps
+├── kiddo/index.html            # Kiddo policy
+├── bengalicalendar/index.html  # Bengali Calendar policy
 └── .github/workflows/pages.yml
 ```
