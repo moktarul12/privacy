@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DromoMinds — App Privacy Policies</title>
+  <style>
+    :root {
+      --bg: #f0f9ff;
+      --card: #ffffff;
+      --ink: #1e293b;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --border: #dbeafe;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      color: var(--ink);
+      background: linear-gradient(180deg, var(--bg) 0%, #ffffff 100%);
+      min-height: 100vh;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 48px; }
+    h1 { font-size: 1.85rem; margin: 0 0 8px; }
+    .lead { color: var(--muted); margin: 0 0 28px; }
+    .apps { display: grid; gap: 14px; }
+    .app {
+      display: block;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.06);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .app:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+    }
+    .app-top { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+    .emoji { font-size: 2rem; line-height: 1; }
+    .app h2 { font-size: 1.15rem; margin: 0; }
+    .pkg { font-size: 0.85rem; color: var(--muted); font-family: ui-monospace, monospace; }
+    .app p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .arrow { float: right; color: var(--accent); font-weight: 700; }
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>DromoMinds Privacy Policies</h1>
+    <p class="lead">
+      Public privacy policies for our mobile apps. Choose an app below to read its policy.
+    </p>
+
+    <div class="apps">
+      <a class="app" href="kiddo/">
+        <div class="app-top">
+          <span class="emoji" aria-hidden="true">🧒</span>
+          <div>
+            <h2>Kiddo</h2>
+            <div class="pkg">com.dromominds.kiddoo</div>
+          </div>
+          <span class="arrow" aria-hidden="true">→</span>
+        </div>
+        <p>Learning app for young children — colors, numbers, shapes, and more.</p>
+      </a>
+
+      <!-- Add more apps here, for example:
+      <a class="app" href="my-other-app/">
+        <div class="app-top">
+          <span class="emoji">📱</span>
+          <div>
+            <h2>My Other App</h2>
+            <div class="pkg">com.dromominds.otherapp</div>
+          </div>
+          <span class="arrow">→</span>
+        </div>
+        <p>Short description of the app.</p>
+      </a>
+      -->
+    </div>
+
+    <footer>
+      <p>
+        <strong>DromoMinds</strong><br />
+        Email: <a href="mailto:admin@dromominds.com">admin@dromominds.com</a><br />
+        Website: <a href="https://dromominds.in">dromominds.in</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
